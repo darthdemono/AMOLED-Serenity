@@ -1,0 +1,198 @@
+.theme-dark {
+    /* Base Colors */
+    --color-base-00: #0e0e0e;
+    /* Primary dark background */
+    --color-base-05: #343434;
+    /* Darker secondary color */
+    --color-base-10: #242424;
+    /* Slightly lighter dark */
+    --color-base-20: #1a1a1a;
+    /* Even lighter dark */
+    --color-base-25: #262626;
+    /* Soft highlight color */
+    --color-base-30: #333333;
+    /* Dark gray */
+    --color-base-35: #363636;
+    /* Medium dark */
+    --color-base-40: #4a4a4a;
+    /* Mid-tone gray */
+    --color-base-50: #666666;
+    /* Light gray */
+    --color-base-60: #999999;
+    /* Lighter gray */
+    --color-base-70: #bbbbbb;
+    /* Almost white gray */
+    --color-base-80: #dddddd;
+    /* Very light gray */
+    --color-base-90: #eeeeee;
+    /* Almost white */
+    --color-base-100: #ffffff;
+    /* Pure white */
+
+    /* Background Colors */
+    --background-primary: var(--color-base-00);
+    /* Main background */
+    --background-secondary: var(--color-base-00);
+    /* Secondary background */
+    --titlebar-background: var(--color-base-00);
+    /* Titlebar background */
+    --titlebar-background-focused: var(--color-base-10);
+    /* Focused titlebar */
+
+    --red_x: 191, 97, 106;
+    /* #bf616a */
+    --red: rgb(var(--red_x));
+    --orange_x: 208, 135, 112;
+    /* #d08770 */
+    --orange: rgb(var(--orange_x));
+    --yellow_x: 235, 203, 139;
+    /* #ebcb8b */
+    --yellow: rgb(var(--yellow_x));
+    --green_x: 163, 190, 140;
+    /* #a3be8c */
+    --green: rgb(var(--green_x));
+    --purple_x: 180, 142, 173;
+    /* #b48ead */
+    --purple: rgb(var(--purple_x));
+    --frost0_x: 143, 188, 187;
+    /* #8fbcbb */
+    --frost0: rgb(var(--frost0_x));
+    --frost2_x: 129, 161, 193;
+    /* #81a1c1 */
+    --frost2: rgb(var(--frost2_x));
+
+    --h1-color: var(--red);
+    --h2-color: var(--yellow);
+    --h3-color: var(--green);
+    --h4-color: var(--purple);
+    --h5-color: var(--frost0);
+    --h6-color: var(--frost2);
+    /* Text Colors */
+    --text-primary: var(--color-base-80);
+    /* Main text color */
+    --text-secondary: var(--color-base-50);
+    /* Secondary text color */
+    --text-error: var(--red);
+    /* Error text color */
+    --text-warning: var(--yellow);
+    /* Warning text color */
+
+    /* Button Colors */
+    --button-background: var(--background-primary);
+    /* Button background */
+    --button-text: var(--color-base-80);
+    /* Button text color */
+    --button-border: var(--background-primary);
+    /* Button border color */
+
+    /* Selections and Focus */
+    --focus-border: var(--purple);
+    /* Focus border color */
+    --selection-background: rgba(var(--green_x), 0.25);
+    /* Selection background */
+
+    /* Status Bar */
+    --status-bar-background: var(--color-base-05);
+    /* Status bar background */
+    --status-bar-foreground: var(--color-base-100);
+    /* Status bar text color */
+}
+
+body {
+    /* General Body Styles */
+    background-color: var(--background-primary) !important;
+    /* Body background color */
+    color: var(--text-primary);
+    /* Body text color */
+    font-family: 'Arial', sans-serif;
+    /* Modern font style */
+    line-height: 1.5;
+    /* Improved line height for readability */
+    margin: 0;
+    /* Remove default margin */
+    /* General Body Styles */
+    background-color: var(--background-primary);
+    /* Body background color */
+    color: var(--text-primary);
+    /* Body text color */
+    font-family: sans-serif;
+    /* Body font style */
+    line-height: 1.6;
+    /* Line height for readability */
+}
+
+/* Enhanced Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 20px;
+    /* Add space above headings */
+    margin-bottom: 10px;
+    /* Space below headings */
+    font-weight: bold;
+    /* Bold headings */
+}
+
+p {
+    margin: 10px 0;
+    /* Spacing for paragraphs */
+}
+
+/* Links */
+a {
+    color: var(--frost0_x);
+    /* Links in yellow */
+    text-decoration: none !important;
+    /* Remove underline */
+
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+/* Button Styles */
+.side-dock-ribbon-action {
+    background-color: var(--button-background);
+    /* Button background */
+    color: var(--button-text);
+    /* Button text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners for buttons */
+    padding: 5px 5px;
+    /* Button padding */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.side-dock-ribbon-action:hover {
+    background-color: rgba(var(--button-background), 0.8);
+    /* Darker on hover */
+}
+
+/* Status Bar */
+.status-bar {
+    background-color: var(--status-bar-background);
+    /* Status bar background */
+    color: var(--status-bar-foreground);
+    /* Status bar text color */
+    padding: 5px;
+    /* Padding for the status bar */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+
+ul,
+li,
+ol {
+    color: var(--color-base-80);
+}
