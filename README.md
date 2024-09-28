@@ -40,7 +40,7 @@ Feel free to modify the `theme.css` file to tailor colors and styles to your lik
 - `--accent-*`: Accent colors for various UI elements.
 
 ## License
-This project is licensed under the [Beerware License](LICENSE). You are free to use and modify it, but if you meet the author in person, you are encouraged to buy them a beer.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 **DarthDemono**  
