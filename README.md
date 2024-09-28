@@ -23,10 +23,10 @@
 
 ## Manual Installation
 1. Clone the repository:
-```bash
-git clone https://github.com/darthdemono/AMOLED-Serenity.git
-cd AMOLED-Serenity
-```
+    ```bash
+    git clone https://github.com/darthdemono/AMOLED-Serenity.git
+    cd AMOLED-Serenity
+    ```
 1. Copy the `theme.css` and `manifest.json` files to the "AMOLED Serenity" Subfolder under Obsidian theme directory.
 2. Load the theme through Obsidian’s theme settings.
 
