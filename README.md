@@ -3,7 +3,7 @@
 ![AMOLED Serenity](AMOLED-Serenity.png)
 
 ## Description
-**AMOLED Serenity** is a smooth, low-contrast theme designed specifically for AMOLED screens. It provides a visually calming experience with deep blacks and a focus on eye comfort, making it perfect for extended use.
+**AMOLED Serenity** is a smooth, low-contrast Obsidian theme designed specifically for AMOLED screens. It provides a visually calming experience with deep blacks and a focus on eye comfort, making it perfect for extended use.
 
 ## Features
 - **Designed for AMOLED**: Utilizes deep blacks to save battery life and enhance visual aesthetics.
@@ -19,7 +19,7 @@
     - [Insanum's Obsidian Nord Theme](https://github.com/insanum/obsidian_nord/)
     - [VSCode Amoled Black Theme](https://github.com/rendinjast/amoled-black)
 ## Recommendations
-- **Windows Night Light**: It is recommended to use this theme in conjunction with Windows Night Light for optimal eye comfort.
+- **Windows Night Light**: It is recommended to use this Obsidian theme in conjunction with Windows Night Light for optimal eye comfort.
 
 ## Manual Installation
 1. Clone the repository:
@@ -31,7 +31,7 @@
 2. Load the theme through Obsidian’s theme settings.
 
 ## Usage
-- Select **AMOLED Serenity** from your theme options within the application settings.
+- Select **AMOLED Serenity** from your theme options within the Obsidian settings.
 - Adjust any additional settings as needed to suit your preferences.
 
 ## Customization
