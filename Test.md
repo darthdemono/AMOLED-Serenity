@@ -18,8 +18,9 @@
 .theme-dark {
 	--color-base-00: #0e0e0e;
 }
-a {
-    text-decoration: none !important;
+```
+```json
+{
+	"name": "AMOLED Serenity"
 }
 ```
-
