@@ -14,7 +14,7 @@
 
 ## Inspiration
 - Based on themes and ideas from:
-    - [SakuraIsayeki's Vanilla AMOLED Theme](https://github.com/Sskki-exe/vanilla-amoled-theme-color)
+    - [SakuraIsayeki's Vanilla AMOLED Theme](https://github.com/SakuraIsayeki/vanilla-amoled-theme)
     - [Sskki-exe's Vanilla AMOLED Theme Color](https://github.com/Sskki-exe/vanilla-amoled-theme-color/)
     - [Insanum's Obsidian Nord Theme](https://github.com/insanum/obsidian_nord/)
     - [VSCode Amoled Black Theme](https://github.com/rendinjast/amoled-black)
