@@ -160,19 +160,6 @@ p {
     /* Spacing for paragraphs */
 }
 
-/* Links */
-a {
-    color: var(--frost0_x);
-    /* Links in yellow */
-    text-decoration: none !important;
-    /* Remove underline */
-}
-
-a:hover {
-    text-decoration: underline;
-    /* Underline on hover */
-}
-
 /* Button Styles */
 .side-dock-ribbon-action {
     background-color: var(--button-background);
