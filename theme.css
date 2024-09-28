@@ -39,6 +39,7 @@
     --titlebar-background-focused: var(--color-base-10);
     /* Focused titlebar */
 
+    /* Accent Colors */
     --red_x: 191, 97, 106;
     /* #bf616a */
     --red: rgb(var(--red_x));
@@ -61,12 +62,14 @@
     /* #81a1c1 */
     --frost2: rgb(var(--frost2_x));
 
+    /* Headings */
     --h1-color: var(--red);
     --h2-color: var(--yellow);
     --h3-color: var(--green);
     --h4-color: var(--purple);
     --h5-color: var(--frost0);
     --h6-color: var(--frost2);
+
     /* Text Colors */
     --text-primary: var(--color-base-80);
     /* Main text color */
@@ -106,19 +109,35 @@ body {
     /* Body text color */
     font-family: 'Arial', sans-serif;
     /* Modern font style */
-    line-height: 1.5;
+    line-height: 1.6;
     /* Improved line height for readability */
     margin: 0;
     /* Remove default margin */
-    /* General Body Styles */
-    background-color: var(--background-primary);
-    /* Body background color */
-    color: var(--text-primary);
-    /* Body text color */
-    font-family: sans-serif;
-    /* Body font style */
-    line-height: 1.6;
-    /* Line height for readability */
+
+    /* Code */
+    --code-size: var(--font-smaller);
+    --code-background: var(--background-primary);
+    /* Keep primary background for code */
+    --code-normal: var(--color-base-80);
+    /* Default code color */
+    --code-comment: var(--color-base-50);
+    /* Muted gray for comments */
+    --code-function: var(--yellow);
+    /* Yellow for functions */
+    --code-important: var(--orange);
+    /* Orange for important code */
+    --code-keyword: var(--purple);
+    /* Purple for keywords */
+    --code-property: var(--frost0);
+    /* Cyan for properties */
+    --code-punctuation: var(--color-base-60);
+    /* Light gray for punctuation */
+    --code-string: var(--green);
+    /* Green for strings */
+    --code-tag: var(--red);
+    /* Red for tags */
+    --code-value: var(--purple);
+    /* Purple for values */
 }
 
 /* Enhanced Typography */
@@ -147,7 +166,6 @@ a {
     /* Links in yellow */
     text-decoration: none !important;
     /* Remove underline */
-
 }
 
 a:hover {
@@ -188,11 +206,4 @@ a:hover {
     /* Padding for the status bar */
     border-radius: 5px;
     /* Rounded corners */
-}
-
-
-ul,
-li,
-ol {
-    color: var(--color-base-80);
 }
