@@ -43,13 +43,12 @@ Feel free to modify the `theme.css` file to tailor colors and styles to your lik
 - `--color-base-*`: Base colors for backgrounds and text.
 - `--accent-*`: Accent colors for various UI elements.
 
-**Style Settings Extension Compatibility**: AMOLED Serenity is compatible with the [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings), allowing you to customize various aspects of the theme directly from Obsidian's settings. This integration provides a dynamic user interface for adjusting theme, plugin, and snippet CSS settings. ([github.com](https://github.com/mgmeyers/obsidian-style-settings?utm_source=chatgpt.com))
-
+**Style Settings Extension Compatibility**: AMOLED Serenity is compatible with the [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings), allowing you to customize various aspects of the theme directly from Obsidian's settings. This integration provides a dynamic user interface for adjusting theme, plugin, and snippet CSS settings.
 ## Changelog
 
 **31 January 2025 (1.1.0)**
 
-- **Enhanced Customizability**: Introduced compatibility with the Style Settings plugin, enabling users to adjust theme variables such as colors, font sizes, and styles directly from Obsidian's settings. ([github.com](https://github.com/mgmeyers/obsidian-style-settings?utm_source=chatgpt.com))
+- **Enhanced Customizability**: Introduced compatibility with the Style Settings plugin, enabling users to adjust theme variables such as colors, font sizes, and styles directly from Obsidian's settings. 
 - **Improved Code Syntax Highlighting**: Refined code block styling for better readability and consistency across different languages.
 - **Optimized Performance**: Made adjustments to CSS to enhance theme loading times and responsiveness.
 
