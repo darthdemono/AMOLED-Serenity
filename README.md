@@ -12,20 +12,6 @@
 <p align="center">
   <img src="AMOLED-Serenity.png" alt="AMOLED Serenity">
 </p>
-<h1 align="center">AMOLED Serenity</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/downloads-2072-573E7A?color=573E7A&logo=github&style=for-the-badge" alt="Downloads" height="28">
-  <img src="https://img.shields.io/github/last-commit/darthdemono/AMOLED-Serenity?color=573E7A&label=last%20update&logo=github&style=for-the-badge" alt="Last Update" height="28">
-  <img src="https://img.shields.io/github/stars/darthdemono/AMOLED-Serenity?color=573E7A&logo=github&style=for-the-badge" alt="Stars" height="28">
-  <img src="https://img.shields.io/github/issues/darthdemono/AMOLED-Serenity/help%20wanted?color=573E7A&logo=github&style=for-the-badge" alt="Help Wanted" height="28">
-</p>
-
----
-
-<p align="center">
-  <img src="AMOLED-Serenity.png" alt="AMOLED Serenity">
-</p>
 
 ## Description
 **AMOLED Serenity** is a smooth, low-contrast Obsidian theme designed specifically for AMOLED screens. It provides a visually calming experience with deep blacks and a focus on eye comfort, making it perfect for extended use.
