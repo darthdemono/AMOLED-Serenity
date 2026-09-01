@@ -1,0 +1,7 @@
+CLAUDE.md
+Handoff/
+Review/
+
+# Python
+__pycache__/
+*.pyc
